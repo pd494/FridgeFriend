@@ -4,19 +4,19 @@ This app is a mobile tool designed for tracking food items in your fridge, using
 
  
 ## Frontend Setup
-1. Navigate to the `frontend` directory.
+1. cd to `frontend`.
 2. Run `npm install` & `npm install -g expo-cli` to install the dependencies.
 3. Start the frontend by running `npx expo start`.
 
 #Note: You'll need your own HuggingFace key if you want to use the camera feature in `CameraModal.tsx`
 ## Backend Setup
-1. Navigate to the directory containing your FastAPI application.
+1. cd to `backend`.
 2. Install FastAPI and Uvicorn by running:
    ```
    pip install fastapi uvicorn
    ```
 
-3. Run the following command to start the backend server:
+3. To start the backend server:
    ```
    uvicorn api:router --host <your_ip_address> --port 8000 
    ```
