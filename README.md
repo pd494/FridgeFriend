@@ -8,7 +8,7 @@ This app is a mobile tool designed for tracking food items in your fridge, allow
 2. Run `npm install` & `npm install -g expo-cli` to install the dependencies.
 3. Start the frontend by running `npx expo start`.
 
-### Note: You'll need your own HuggingFace key if you want to use the camera feature in `CameraModal.tsx`
+#Note: You'll need your own HuggingFace key if you want to use the camera feature in `CameraModal.tsx`
 ## Backend Setup
 1. Navigate to the directory containing your FastAPI application.
 2. Install FastAPI and Uvicorn by running:
