@@ -1,5 +1,5 @@
-# Project Name
-Fridge Friend 
+# Fridge Friend
+ 
 ## Frontend Setup
 1. Navigate to the `frontend` directory.
 2. Run `npm install` to install the dependencies.
