@@ -61,10 +61,9 @@ async def register(user: User):
         data = {'s':1}
         sanitized_email = sanitize_email(user.email)
 
-        # Add a new doc in collection 'cities' with ID 'LA'
         db.collection("users").document(email).set({
-            "user_data": data,  # Add user-specific data here
-            "items": {}          # Initialize an empty `items` sub-collection
+            "user_data": data,
+            "items": {}          
         })
         loggedIn.email = email
         print('x')
