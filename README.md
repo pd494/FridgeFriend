@@ -1,6 +1,7 @@
 # Fridge Friend
 
-This app is a mobile-based food management tool that allows users to take photos of items, identify them using image recognition, and save details like item name, expiry date, and quantity to a database with push notifications. It streamlines the process of tracking inventory by automating item recognition and data entry through a user-friendly interface.
+This app is a mobile tool designed for tracking food items in your fridge, allowing users to snap a photo or manually add an item to record details like name, expiry date, and quantity. It helps you manage your fridge efficiently by simplifying the process of keeping track of what's inside and when it needs to be used with push notifs.
+
  
 ## Frontend Setup
 1. Navigate to the `frontend` directory.
